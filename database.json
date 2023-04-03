@@ -1,0 +1,148 @@
+{
+    "Users":[
+        {
+            "id":1,
+            "name": "Hank hill",
+            "email":"propainnumber1gas@hotmail.com"
+        },
+        {
+            "id":2,
+            "name": "philip j fry",
+            "email":"pizzaboi@gmail.com"
+        },
+        {
+            "id":3,
+            "name": "leela cyclops",
+            "email":"mutantrpeople2@planetdelivery.com"
+        },
+        {
+            "id":4,
+            "name": "doctor Zoidberg",
+            "email":"whoopWhoopwhoop@healthnet.com"
+        },
+        {
+            "id":5,
+            "name": "bender rodreques",
+            "email":"bitemyshinybutt@robot.com"
+        }
+    ],
+    "employees":[
+        {
+            "id":1,
+            "userId":2,
+            "locationId": 1,
+            "startDate": "November 1, 3013",
+            "payRate": 1.13
+        },
+        {
+            "id":2,
+            "userId": 4,
+            "locationId": 2,
+            "startDate": "september 23, 3012",
+            "payRate":15.23
+        }
+    ],
+    "customers":[
+        {
+            "id":1,
+            "userId":1,
+            "loyaltyNumber": 235689
+
+        },
+        {
+            "id":2,
+            "userId":5,
+            "loyaltyNumber": 234578
+
+        }
+
+    ],
+    "locations":[
+        {
+            "id":1,
+            "address": "500 wanka circle. london, UK. 23854",
+            "sqft": 2300
+        },
+        {
+            "id":2,
+            "address": "421 highway, agrifarm, colorado. 18420",
+            "sqft": 1500
+        }
+
+    ],
+    "products":[
+        {
+            "id":1,
+            "storeId":2,
+            "productTypeId":1,
+            "productName": "snickers"
+        },
+        {
+            "id":2,
+            "storeId":1,
+            "productTypeId":2,
+            "productName":"Panda cookies"
+        },
+        {
+            "id":3,
+            "storeId":1,
+            "productTypeId":4,
+            "productName":"sweetish fish"
+        },
+        {
+            "id":4,
+            "storeId":2,
+            "productTypeId":3,
+            "productName":"wurthers originals"
+        },
+        {
+            "id":5,
+            "storeId":1,
+            "productTypeId":5,
+            "productName":"Nuclear WarHeads"
+        },
+        {
+            "id":6,
+            "storeId":2,
+            "productTypeId":2,
+            "productName":"choco-Shrooms"
+        }
+
+    ],
+    "productTypes":[
+        {
+            "id":1,
+            "productType": "Chocolate"
+
+        },
+        {
+            "id":2,
+            "productType":"imported"
+
+        },
+        {
+            "id":3,
+            "productType":"hard candy"
+
+        },
+        {
+            "id":4,
+            "productType":"Gummies"
+
+        },
+        {
+            "id":5,
+            "productType":"sour"
+
+        }
+
+    ],
+    "purchases":[
+        {
+            "id":1,
+            "customerId":1,
+            "producId":6,
+            "productQty": 18
+        }
+    ]
+}
